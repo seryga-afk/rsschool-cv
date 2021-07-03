@@ -3,7 +3,7 @@
 ## Contacts:
 __Phone:__ +7 929 558 00 41
 
-__Emal:__ seryga_94.94@mail.ru
+__Email:__ seryga_94.94@mail.ru
 
 ## Location:
 __Russia__

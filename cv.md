@@ -17,3 +17,16 @@ can evaluate the work from the outside, which helps to understand the concept.
 I have no work experience in IT, but I am actively interested in the field
 web development, I actively study JavaScript, watch video tutorials, read books,
 I wrote the landing page, discovered Git, I like it and I want to continue to discover new horizons for myself in the knowledge of web development.*
+
+### Code examples:
+```__Javascript__
+alert("Hello world")
+```
+
+### Education:
+__HTML-academy__
+
+__The Rolling Scopes School 2021q1__
+
+### English:
+__beginer__

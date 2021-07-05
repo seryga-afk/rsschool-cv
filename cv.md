@@ -10,7 +10,7 @@ __Russia__
 
 __Moscow__
 
-### Short summary:
+## Short summary:
 *Study of new technologies in web development,
 since I am a user of many applications and games, i
 can evaluate the work from the outside, which helps to understand the concept.
@@ -18,15 +18,25 @@ I have no work experience in IT, but I am actively interested in the field
 web development, I actively study JavaScript, watch video tutorials, read books,
 I wrote the landing page, discovered Git, I like it and I want to continue to discover new horizons for myself in the knowledge of web development.*
 
-### Code examples:
+## Skils:
+__HTML5__
+
+__CSS3__
+
+__Javascpt-basic__
+
+## Operating system:
+__windows10__
+
+## Code examples:
 ```__Javascript__
-alert("Hello world")
+window.alert("Hello world")
 ```
 
-### Education:
+## Education:
 __HTML-academy__
 
 __The Rolling Scopes School 2021q1__
 
-### English:
-__beginer__
+## English:
+__A1__

@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Otomanopee One', sans-serif;
+    font-family: 'Tourney', cursive;
+}
+.header{
+    background-color: rgb(156, 191, 219);
+    padding: 0 0 30px 0;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header__wraper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__iteam_name>h1{
+    font-family: 'Otomanopee One';
+    font-size: 30px;
+    line-height: 30px;
+    padding: 25px 0 15px 40px;
+}
+.header__iteam_wraper{
+    max-width: 500px;
+}
+.header__iteam_description>h2{
+    font-family: 'Tourney';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    padding: 0 0 10px 40px;
+}
+.header__iteam_description>p{
+    font-family: 'Tourney';
+    font-weight: 700;
+    padding: 10px 0 0 0;
+}
+
+.header__iteam_img>img{
+    width: 190px;
+    height: 200px;
+    border-radius: 15%;
+}
+@media (max-width: 700px) {
+    .container{
+        padding: 0 5px
+    }
+    .header__wraper{
+        flex-direction: column;
+    }
+    .header__iteam_wraper{
+        max-width: 700px;
+    }
+    .header__iteam_name>h1{
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+    .header__iteam_description>h2{
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+    .header__iteam_img{
+        padding-top: 15px;
+        order: -1;
+    }
+
+
+}

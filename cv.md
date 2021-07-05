@@ -23,7 +23,7 @@ __HTML5__
 
 __CSS3__
 
-__Javascpt-basic__
+__Javascript-basic__
 
 ## Operating system:
 __windows10__

@@ -24,3 +24,17 @@ __HTML5__
 __CSS3__
 
 __Javascript-basic__
+
+## Operating system:
+__windows10__
+
+## Code examples:
+```__Javascript__
+window.alert("Hello world")
+```
+
+## Education:
+__HTML-academy__
+
+## English:
+__A1__

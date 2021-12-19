@@ -1,1 +1,1 @@
-# rsschool-cv
+https://seryga-afk.github.io/rsschool-cv/cv

@@ -1,4 +1,4 @@
-body,ul,li,h1,h2{
+body,ul,li,h1,h2,p{
     background-color: gainsboro;
     font-size: 16px;
     font-family: 'Press Start 2P', cursive;
@@ -103,10 +103,11 @@ main{
 .my_contacts>p:last-child{
     margin-bottom: 0;
 }
-#abt>h2,#exp>h2{
+#abt>h2,#exp>h2,#skl>h2,
+.skils>h2,.education>h2,.language>h2{
     text-transform: uppercase;
     font-size: 1.5em;
-    margin-top: 15px;
+    margin: 15px 0;
 }
 #exp{
     flex-direction: column;
@@ -120,6 +121,28 @@ code{
     font-size: 1.2em;
     line-height: 1.2em;
     padding: 10px;
+}
+#exp>a{    
+    text-decoration: none;
+    color: green;
+    transition: .3s linear all;
+
+}
+#exp>a:hover{
+    color: greenyellow;
+
+}
+#skl{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.skils, .education{
+   width: 400px;
+}
+.language{
+    width: 100%;
 }
 footer{
     margin: 0 auto;
@@ -153,6 +176,13 @@ footer>a{
     }
     nav a{
         font-size: 1.5em;
+    }
+    #skl{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .language{
+        width: 400px;
     }
 
 }

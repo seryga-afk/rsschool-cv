@@ -75,6 +75,9 @@ nav a:hover{
     background-color: green;
     margin-top: 10px;
 }
+.container::after:last-child{
+    display: none;
+}
 .introduction{
     max-width: 300px;
     display: flex;
@@ -178,6 +181,7 @@ footer>a{
 @media (max-width: 770px) {
     .container{
         flex-direction: column;
+        align-items: center;
     }
     .my_contacts{
         align-items: center;
@@ -192,8 +196,11 @@ footer>a{
         flex-wrap: wrap;
         flex-direction: column;
     }
-    .language{
-        width: 400px;
+    .language,.skils, .education{
+        max-width: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 }

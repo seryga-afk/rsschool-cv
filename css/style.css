@@ -22,8 +22,14 @@ nav{
     align-items: center;
     justify-content: center;
 }
-nav li{
-    display: inline-block;
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+li{
     margin-left: 20px;
 }
 nav a{
@@ -43,10 +49,6 @@ nav a:hover{
     display: block;
     width: 100%;
     height: 80px;
-}
-main{
-    margin-top: -80px;
-    padding-top: 80px;
 }
 .container{
     max-width: 900px;
@@ -133,7 +135,6 @@ code{
 
 }
 #skl{
-    width: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
